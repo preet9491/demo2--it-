@@ -1,4 +1,4 @@
-name: Jobs and Steps Demo5
+name: Jobs and Steps Demo
 on:
     push:
         branches:
@@ -18,3 +18,4 @@ jobs:
             - name: Step 3 – Read the file
             run: |
             cat demo.txt
+            
